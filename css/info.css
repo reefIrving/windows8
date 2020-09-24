@@ -1,0 +1,37 @@
+/*インフォメーション縮小版*/
+.shortInfo{
+    font-size: 18px !important;
+}
+/*続きを読む*/
+.next{
+    font-size: inherit;
+    margin: 4px;
+    width: 5em;
+    height: 1em;
+    border: 2px solid white;
+    cursor: pointer;
+}
+/*小さく表示*/
+.close{
+    margin: 4px;
+    width: 5em;
+    height: 1em;
+    border: 2px solid white;
+    cursor: pointer;
+}
+/*mainmenu個別設定*/
+#mainmenu{
+    height: 70vw;
+}
+#sidemenu{
+    height: 70vw;
+    text-align: center;
+}
+/*title設定*/
+#title{
+    margin: 5vw;
+    font-size: 48px;
+}
+#atte{
+    font-size: 24px;
+}

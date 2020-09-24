@@ -1,0 +1,10 @@
+
+
+.content{
+    text-align: center;
+    margin: 1vw;
+    border: 2px dashed darkblue;
+}
+li{
+    cursor: pointer;
+}

@@ -1,0 +1,208 @@
+/*Discographyのタイル部*/
+div.tile{
+    position: relative;
+	height: 240px;
+	width: 240px;
+	margin: 10px;
+    float: left;
+    text-align: center;
+    border: 1px solid steelblue;
+}
+/*テキストタイル*/
+.txtbox{
+    height: 240px !important;
+    width: 240px !important;
+    margin-left: 0 !important;
+    background: #292929 !important;
+    color: #ebebeb !important;
+}
+/*tag*/
+.tag{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: Meiryo UI;
+    font-weight: bolder;
+    font-size: 26pt;
+    text-shadow: black 2px 2px 0;
+    color: white;
+}
+/*カーソル変更・解除*/
+td{
+    cursor: auto;
+}
+th{
+    cursor: pointer;
+}
+/*シングル画像配置*/
+#ada-a{
+    background: url('../img/disco/single/adamasfirst-.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ada-b{
+    background: url('../img/disco/single/adamas.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ada-c{
+    background: url('../img/disco/single/adamaslimit.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ash-a{
+    background: url('../img/disco/single/ashfirst.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ash-b{
+    background: url('../img/disco/single/ash.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ash-c{
+    background: url('../img/disco/single/ashlimit.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ata-a{
+    background: url('../img/disco/single/atahirofirst.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ata-b{
+    background: url('../img/disco/single/atahito.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ata-c{
+    background: url('../img/disco/single/atahirolimit.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ctm-a{
+    background: url('../img/disco/single/ctmfirst.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ctm-b{
+    background: url('../img/disco/single/ctmlimit.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ctm-c{
+    background: url('../img/disco/single/ctm.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/*シングルここまで*/
+/*アルバムここから*/
+#best-w{
+    background: url('../img/disco/album/winter.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#best-d-a-b{
+    background: url('../img/disco/album/bestdaylimited.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#best-d-a-d{
+    background: url('../img/disco/album/bestdaylimited.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#best-d-b{
+    background: url('../img/disco/album/bestday.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#best-w-a-b{
+    background: url('../img/disco/album/waylimited.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#best-w-a-d{
+    background: url('../img/disco/album/waylimited.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#best-w-b{
+    background: url('../img/disco/album/way.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#best-c{
+    background: url('../img/disco/album/dayway.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ldp-a-b{
+    background: url('../img/disco/album/ldpblu.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ldp-a-d{
+    background: url('../img/disco/album/ldpdvd.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ldp-b{
+    background: url('../img/disco/album/ldp.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ldp-c{
+    background: url('../img/disco/album/ldpblulimited.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/*アルバムここまで*/
+/*DVD/BDここから*/
+#n-s-b, #n-s-d{
+    background: url('../img/disco/dvd_bd/neversun.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#n-m-b, #n-m-d{
+    background: url('../img/disco/dvd_bd/nevermoon.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#m-d, #m-b{
+    background: url('../img/disco/dvd_bd/mvc.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#i-d, #i-b{
+    background: url('../img/disco/dvd_bd/pb.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#c-b, #c-d{
+    background: url('../img/disco/dvd_bd/pbc.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#f-d, #f-b{
+    background: url('../img/disco/dvd_bd/anothergday.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/*DVD/BDここまで*/
+.menu{
+    width: 80%;
+}
+#mainmenu, #sidemenu{
+    margin-left: 0;
+    margin-right: 0;
+}
+#mainmenu{
+    width: 70%;
+}
+#sidemenu{
+    width: 30%;
+}
+td{
+    cursor: pointer;
+}

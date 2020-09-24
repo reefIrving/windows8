@@ -1,0 +1,58 @@
+/*背景*/
+body{
+    background-color: #38445A;
+}
+/*タイルの形状*/
+div.tile{ 
+	position: relative;
+	height: 250px;
+	width: 250px;
+	margin: 10px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+/*メニューを中央に配置*/
+#menu{
+    width: 810px;
+    margin: 10px auto;
+}
+/*タイルごとに背景画像*/
+#profile{
+    background: url('../img/btn_img/resize/profile.jpg');
+}
+#disco{
+    background: url('../img/btn_img/resize/disco.jpg');
+}
+#info{
+    background: url('../img/btn_img/resize/info.jpg');
+}
+#twitter{
+    background: url('../img/btn_img/resize/twitter.jpg');
+}
+#live{
+    background: url('../img/btn_img/resize/live.jpg');
+}
+#movie{
+    background: url('../img/btn_img/resize/youtube.jpg');
+}
+#band{
+    background: url('../img/btn_img/resize/band.jpg');
+}
+#achieve{
+    background: url('../img/btn_img/resize/achieve.jpg');
+}
+#sitemaps{
+    background: url('../img/btn_img/resize/sitemaps.jpg');
+}
+/*tag要素のスタイル*/
+.tag{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: Meiryo UI;
+    font-weight: bolder;
+    font-size: 26pt;
+    text-shadow: black 2px 2px 0;
+    color: white;
+}

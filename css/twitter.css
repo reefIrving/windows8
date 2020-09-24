@@ -1,0 +1,26 @@
+/*タイムラインの枠組み*/
+.tl{
+    width: 30vw;
+    height: 500vw;
+    float: left;
+    opacity: 1.0;
+    margin: 1vw
+}
+/*title設定*/
+#title{
+    margin: 5vw;
+    font-size: 30px;
+}
+/*注意書き*/
+#attention{
+    font-size: 12px;
+    margin: 5vw 0vw 5vw 5vw;
+}
+/*mainmenu濃度変更*/
+#mainmenu{
+    opacity: 0.98;
+}
+/*タイムライン濃度解除*/
+.twitter-timeline{
+    opacity: 1.0 !important;
+}

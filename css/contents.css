@@ -1,0 +1,72 @@
+/*背景画像*/
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: UD デジタル 教科書体 N-R;
+}
+/*サイドメニューのスタイル*/
+#sidemenu{
+    width: 30vw;
+    height: 500vw;
+    float: left;
+    margin: 0.25vw;
+    opacity: 0.6;
+    background: white;
+    font-size: 24px;
+}
+/*メインメニューのスタイル*/
+#mainmenu{
+    width: 65vw;
+    height: 500vw;
+    float: left;
+    margin: 0.25vw;
+    opacity: 0.8;
+    background: steelblue;
+    font-size: 23px;
+}
+/*メディアタイトル表示領域*/
+.mediaTypeArea{
+    width: 95px;
+    margin: 1px;
+    float: left;
+}
+/*メディアタイトル部*/
+.mediaTitle{
+    width: 95px;
+    height: 25px;
+    background: #C4C4C4;
+}
+/*メディアコンテンツ部*/
+.mediaContents{
+    width: 305px;
+    height: auto;
+    opacity: 1;
+}
+/*メディアリンク部*/
+.mediaLink{
+    margin: 1px;
+}
+/*DL, DT, DD部*/
+dl{
+    margin: 2vw;
+}
+dt{
+    float: left;
+    clear: left;
+}
+dd{
+    float: left;
+}
+/*テーブル部*/
+
+td{
+    cursor: pointer;
+    border: 2px solid steelblue;
+}
+/*イニシャライズメッセージ部*/
+#initMesse{
+    margin: 2vw;
+}
+.tile{
+    cursor: pointer;
+}

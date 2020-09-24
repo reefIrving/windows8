@@ -1,0 +1,13 @@
+/*contents部*/
+.contents{
+    margin: 2px;
+    border: 2px dashed darkblue;
+}
+/*title部*/
+#title{
+    margin: 2vw;
+    font-size: 40px;
+}
+.short{
+    cursor: pointer;
+}
